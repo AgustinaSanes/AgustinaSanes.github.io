@@ -1,0 +1,196 @@
+/* ESTILOS GENERALES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+
+header,
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 30px;
+}
+
+header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* NAVEGACIÓN */
+
+.navegacion {
+    margin-bottom: 20px;
+}
+
+.navegacion a {
+    color: #172554;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    max-width: 900px;
+    margin: 25px auto 35px;
+    padding: 0 20px;
+}
+
+/* SECCIONES */
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* TÍTULOS */
+
+h2 {
+    color: #172554;
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+/* TARJETAS */
+
+.area-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.area-card:hover {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.area-card h3 {
+    color: #172554;
+    margin: 0 0 12px;
+    font-size: 20px;
+}
+
+.area-card p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* HERRAMIENTAS */
+
+.herramientas {
+    font-size: 14px;
+    color: #555;
+}
+
+/* BOTONES */
+
+.boton {
+    display: inline-block;
+    background-color: #172554;
+    color: white;
+    text-decoration: none;
+    padding: 11px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #263b75;
+}
+
+/* BOTÓN EN DESARROLLO */
+
+.boton.desarrollo {
+    background-color: #e5e7eb;
+    color: #555;
+    cursor: default;
+}
+
+.boton.desarrollo:hover {
+    background-color: #e5e7eb;
+}
+
+/* CONTACTO */
+
+.contacto p {
+    margin-bottom: 12px;
+}
+
+.contacto a {
+    color: #172554;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ACCESIBILIDAD */
+
+a:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+}
+
+/* DISEÑO RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 28px 15px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 22px;
+    }
+
+    .area-card {
+        padding: 20px;
+    }
+}
